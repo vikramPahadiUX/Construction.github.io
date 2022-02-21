@@ -1,0 +1,117 @@
+/************************************************* Header ********************************************************************/
+#Header + main {margin-top:212px;}  #Header{padding-bottom:28px;}
+#Header .head-links a{color:#fff !important; letter-spacing:-.020em;} #Header .head-links .fa-lg{color:#fff; font-size:12px;} #Header .head-links a:hover{color:#7c3a3c !important;}  #Header .input-group {width: 140px !important;}
+#Header .social-link .list-inline-item a{font-size:16px;color:#fff !important;}
+#Header .social-link .list-inline-item a:hover{color:#7c3a3c !important;}
+#Header .social-link .list-inline-item:not(:last-child) {margin-right:18px;}
+#Header .header-link .fa-sm{font-size:12px; color:#fff;} #Header .header-link a{font-size:14px; color:#fff; letter-spacing:-.020em;} #Header .header-link a:hover{color:#7c3a3c;}
+#Header .input-group .form-control{background:none; border:1px solid #e2bcbb; border-radius:0px; box-shadow:none; color:#fff; font-size:11px; height:34px; border-right:0px; font-family: 'Open Sans', sans-serif !important;} 
+#Header .input-group .btn{background:none; padding:0 5px; border-radius:0px; height:34px; border:none; border:solid 1px #e2bcbb; color:#fff; font-size:12px; border-left:0px !important;}
+#Header .input-group .btn:hover{background:transparent;color:#7c3a3c;}
+#Header .form-control::placeholder{color:#fff;}
+/********** Banner ***************************************************************************************************/
+#Banner {background:url(../images/bnr-bg.jpg) no-repeat center center; background-size:cover; padding-top:150px; padding-bottom:120px;} #Banner .mrgn{margin-right: 120px; margin-left:100px;} #Banner p{line-height:1.8;} #Banner .border-gradient::after {
+  content: '';
+  position: absolute;
+  left: -55px;
+  top:80px;
+  right: -55px;
+  z-index: -1;
+  bottom: 20px;
+border-style: solid; border-width: 3px; border-image: linear-gradient(0deg, #805557, #ffe3e5, #805557) 1;
+}
+.gradient-border {  } 
+
+#Banner .img-position{position:absolute; z-index:1; width: 70% !important;margin-left: 150px; margin-top: -130px;} 
+/********** Sellers ***************************************************************************************************/
+#Sellers a{color:#797979;} #Sellers a:hover{color:#2d2d2d;}
+/********** New ***************************************************************************************************/
+#New a{color:#797979;} #New a:hover{color:#2d2d2d;}
+/********** Quality ***************************************************************************************************/
+#Quality p{margin-bottom:60px;} #Quality .img-position{position: absolute;top: 95px;right: 15px; z-index:1;} #Quality .mrgn{margin:100px;} #Quality.bg-dark{margin-bottom:60px;} #Quality .border-gradient::after {
+  border-style: solid; border-width: 3px; border-image: linear-gradient(0deg, #805557, #ffe3e5, #805557) 1;
+  content: '';
+  position: absolute;
+  left: -27px;
+  top:-40px;
+  right: 185px;
+  z-index: -1;
+  bottom: 268px;
+}
+/********** Wig ***************************************************************************************************/
+#Wig a{color:#7c3a3c;} #Wig a:hover{color:#2d2d2d;}  #Wig .mrgn{ margin-left: 150px;margin-right: 110px;}
+/********** Footer ***************************************************************************************************/
+#Footer{color:#fff; font-size:14px; line-height:2; font-weight:300;font-family: 'Roboto', sans-serif; }
+#Footer a{color:#fff;} #Footer a:hover{color:#c7c09a;}
+#Footer .list-inline a{font-size:16px;color:#c7c09a;}
+#Footer .list-inline a:hover{color:#fff;}
+#Footer .list-inline-item:not(:last-child) {margin-right:18px;} #Footer .copyText{color:#888383 ; font-size:12px;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+/*************************************************************************************************************/
+.container-new{max-width:100% !important; padding-right:0px; padding-left:0px;margin-right: auto;margin-left: auto;}
+.container{max-width:1350px !important;}
+.container-fluid{max-width:1860px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+
+
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(216,160,158,.95); box-shadow:0px 5px 12px rgba(216,160,158,.5); z-index:999;}
+.Logo img {max-height:88px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:60px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo{padding-top:34px; padding-bottom:40px;}  .shrink .Logo{padding-top:10px; padding-bottom:10px;}
+#Wig .custom-height img, .custom-height .bg-light {
+    height: 726px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+
+}
+
+@media (min-width: 1920px) {#Header .input-group {width: 100% !important;} #Banner .img-position {width: 60% !important;margin-left: 200px !important;} #Banner .mrgn {margin-right: 380px !important;margin-left: 10px !important;} #Banner {padding-bottom: 140px !important;} #Quality .img-position {width: 72% !important;} #Quality .mrgn {margin: 100px 100px 100px 150px !important;} #Wig .mrgn {margin-right: 310px !important;}
+ 
+}
+
+@media (min-width: 1600px) {#Banner .img-position {width: 67%;margin-left: 200px;} #Banner .mrgn {margin-right: 160px;} #Quality .img-position {width: 90%;} #Wig .mrgn {margin-right: 150px;}}
+
+@media (min-width: 1499.98px) and (max-width: 1559.98px) {#Header .input-group {width: 120px !important;}}
+
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#Header .input-group {width: 100px !important;margin-right: 10px;} #Quality .mrgn {margin: 50px;} #Banner .img-position {width: 83% !important;margin-left: 80px;} #Banner .mrgn {margin-right: 0px;}}
+
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px) {#Header{padding-top:10px; padding-bottom:19px;}#Header .input-group {width: 100% !important;} .Logo {padding-top: 20px; padding-bottom: 20px;} #Banner .img-position {width: 95% !important;margin-left: 50px;} h1, .h1 {font-size: 30px;} h2, .h2 {font-size: 30px;} #Banner .border-gradient::after {left: -25px;right: -25px;} #Banner .mrgn {margin-right: 0px;} #Sellers .fs-18 {font-size: 16px !important;} #New .fs-18 {font-size: 16px !important;} h3, .h3 {font-size: 26px;} #Quality .mrgn {margin: 30px 30px 30px 15px;}
+#Quality.bg-dark {margin-bottom: 0px;} #Wig .mrgn {margin-left: 30px;margin-right: 0px;}
+}
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {#Header + main {margin-top:0px;}#Header{padding-top:10px; position:static; padding-bottom:10px;}#Header .input-group {width: 100% !important;} .Logo {padding-top: 10px; padding-bottom: 10px;} #Banner .img-position {width: 95% !important;margin-left: 50px;} h1, .h1 {font-size: 25px;} h2, .h2 {font-size: 30px;} #Banner .border-gradient::after {left: -25px;right: -25px;} #Banner .mrgn {margin-right: 0px;} #Sellers .fs-18 {font-size: 16px !important;} #New .fs-18 {font-size: 16px !important;} h3, .h3{font-size: 26px;} #Quality .mrgn {margin: 30px 30px 30px 15px;} #Banner {padding-bottom: 50px;}#Quality.bg-dark {margin-bottom: 0px;} #Wig .mrgn {margin-left: 30px;margin-right: 0px;} #Quality .border-gradient::after {right: -10px;bottom: 50px;} #Quality p {margin-bottom: 20px;}
+} 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {#Header + main {margin-top:0px;}#Header{padding-top:10px; position:static; padding-bottom:0px;}#Header .input-group {width: 100% !important;} .Logo {padding-top: 10px; padding-bottom:10px;} #Banner .img-position {margin-left: 50px; margin-top:0px;} h1, .h1 {font-size: 25px;} h2, .h2 {font-size: 30px;} #Banner .border-gradient::after {left: -25px;right: -25px;} #Banner .mrgn {margin-right: 0px; margin-left:10px;} #Sellers .fs-18 {font-size: 16px !important;} #New .fs-18 {font-size: 16px !important;} h3, .h3{font-size: 26px;} #Quality .mrgn {margin: 15px 15px 50px 15px; } #Banner {padding-bottom: 50px; padding-top:35px;}#Quality.bg-dark {margin-bottom: 0px;} #Wig .mrgn {margin-left: 30px;margin-right: 0px;} #Quality .border-gradient::after {right: 120px;bottom: 50px;} #Quality p {margin-bottom: 20px;} #Quality .img-position {position: relative; display:block; margin-left:auto; margin-right:auto; width:90%; top:0px; right:0px;} #Quality.bg-dark {padding-bottom: 30px;}
+}
+
+@media (max-width:575.98px) {#Banner .mrgn {margin-right: 0px;margin-left: 0px;} #Banner .img-position {position:relative;width: 80% !important;margin-left: auto;margin-top: 0px; margin-right:auto;} #Quality .border-gradient::after {right: 50px;bottom: 50px; left:-15px;} #Wig .mrgn {
+margin:30px 15px;}
+}
+/* X-Small devices (portrait phones, less than 576px) */

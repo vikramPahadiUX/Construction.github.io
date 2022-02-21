@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Amalfi Coast';
+    src: url('AmalfiCoast.woff2') format('woff2'),
+        url('AmalfiCoast.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
